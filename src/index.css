@@ -197,7 +197,7 @@ h2.section-heading {
 
 .ca {
   min-height: 30rem;
-  background: url("home-page-bg.png");
+  background: url("/home-page-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
