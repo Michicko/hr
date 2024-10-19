@@ -30,10 +30,13 @@
 html {
   font-size: 10px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
 }
 
 body {
   font-family: "Open Sans";
+
 }
 
 .icon {
@@ -212,7 +215,7 @@ h2.section-heading {
   text-align: center;
 }
 
-.ca p{
+.ca p {
   margin-bottom: 2rem;
 }
 
