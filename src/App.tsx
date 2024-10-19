@@ -24,7 +24,7 @@ function App() {
             </p>
           }
           button={<Button text="Get started" />}
-          src="dashboard.png"
+          src="/dashboard.png"
           alt="hr dashboard"
         />
         <p className="lead">
