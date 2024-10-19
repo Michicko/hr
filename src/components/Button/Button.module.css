@@ -1,0 +1,33 @@
+.button {
+  height: 4.5rem;
+  min-width: 12rem;
+  padding: 0 .5rem 0 2rem;
+  border-radius: 2.5rem;
+  font-size: var(--base-text);
+  font-weight: 500;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+  font-size: 'Open Sans';
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--black);
+}
+
+.icon-box{
+  height: 3.5rem;
+  width: 3.5rem;
+  background: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+
+.icon-box .icon path{
+  stroke: var(--white);
+}

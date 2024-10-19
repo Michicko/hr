@@ -1,0 +1,30 @@
+.card {
+  padding: 2rem;
+}
+
+.card.bordered{
+  border: 1px solid var(--blue);
+  border-radius: var(--md-radius);
+}
+
+.card.slate,
+.card.white{
+  padding: 3rem;
+  background: var(--accent);
+  border-radius: var(--md-radius);
+}
+
+.card.white{
+  background: var(--white);
+}
+
+.card h3 {
+  font-size: var(--md-text);
+  font-weight: 500;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.card p{
+    font-size: var(--sm-text);
+}

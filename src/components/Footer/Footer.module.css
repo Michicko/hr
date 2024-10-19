@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-top: 1px solid var(--border);
+  margin-top: 6rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.link{
+    font-size: var(--base-text);
+    font-weight: 400;
+    color: var(--black);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
