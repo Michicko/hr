@@ -24,7 +24,7 @@ function App() {
             </p>
           }
           button={<Button text="Get started" />}
-          src="/dashboard.png"
+          src="/hr/dashboard.png"
           alt="hr dashboard"
         />
         <p className="lead">
@@ -88,7 +88,7 @@ function App() {
             excellence.
           </p>
         }
-        src="hr.jpg"
+        src="/hr/hr.jpg"
         alt="hr discussing"
       />
       <Section

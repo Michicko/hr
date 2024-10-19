@@ -5,23 +5,23 @@ import Security from "./assets/security.svg?react";
 export const brands = [
   {
     name: "spotify",
-    image: "/spotify.png",
+    image: "/hr/spotify.png",
   },
   {
     name: "slack",
-    image: "/slack.png",
+    image: "/hr/slack.png",
   },
   {
     name: "oracle",
-    image: "/oracle.png",
+    image: "/hr/oracle.png",
   },
   {
     name: "quberix",
-    image: "/quberix.png",
+    image: "/hr/quberix.png",
   },
   {
     name: "workato",
-    image: "/workato.png",
+    image: "/hr/workato.png",
   },
 ];
 export const links = [
